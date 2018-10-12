@@ -1,0 +1,52 @@
+body {
+    background-image: url(icons/Untitled-1-3-1024x576.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.header-container {
+    background-color: black;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-around;
+}
+
+header h1 {
+    margin: 15px 0px;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-contents {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-left,
+.footer-right {
+    margin: 15px 0px;
+}
+
+.email {
+    margin: 15px;
+}
+
+.white {
+    color: white;
+}
+
+.icons {
+    height: 50px;
+    width: 50px;
+    margin: 5px;
+}
