@@ -1,50 +1,78 @@
 <!DOCTYPE html>
-    <html lang="en">
+<html lang="en">
 
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <meta http-equiv="X-UA-Compatible" content="ie=edge">
-            <title>FEF Final Project</title>
-            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-            <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
-            crossorigin="anonymous">
-            <link rel="stylesheet" href="style.css"/>
-        </head>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>FEF Final Project</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css"/>
+    </head>
 
-        <body>
-            
-            <div class="header-container">
-                <header>
-                    <h1 class="name">Clayton Hebbe</h1>
-                    <h1 class="jobTitle">Full Stack Web Developer</h1>
-                </header>
-            </div>
+    <body>
+        
+        <div class="header-container">
+            <header>
+                <h1 class="name">Clayton Hebbe</h1>
+                <h1 class="jobTitle">Full Stack Web Developer</h1>
+            </header>
+        </div>
 
-            
-
-            <div class="footer-container">
-                <footer>
-                    <div class="footer-contents">
-                        <div class="footer-left">
-                            <h3 class="email">
-                                <span class="glyphicon glyphicon-envelope"></span>
-                                Tank4396@yahoo.com
-                            </h3>
-                        </div>
-                        <div class="footer-right">
-                            <a href="https://www.github.com/skyrimjunky96" target="_blank" class="resize" id="github"><img class="icons" id="githubIcon" src="icons/if_github_social_media_online_1005326.png"/></a>
-                            <a href="https://www.linkedin.com/in/clayton-hebbe-39409680/" target="_blank" class="resize" id="linkedin"><img class="icons" id="linkedinIcon" src="icons/if_linkedin_circle_color_107178.png"/></a>
-                            <a href="https://www.facebook.com/ClaytonMichaelEstill" target="_blank" class="resize" id="facebook"><img class="icons" id="facebookIcon" src="icons/if_facebook_circle_color_107175.png"/></a>
-                            <a href="https://www.instagram.com/tank4396/" target="_blank" class="resize" id="instagram"><img class="icons" id="instagramIcon" src="icons/if_instagram_circle_color_107172.png"/></a>
-                            <a href="https://twitter.com/squebbot" target="_blank" class="resize" id="twitter"><img class="icons" id="twitterIcon" src="icons/if_twitter_circle_color_107170.png"/></a>
-                        </div>
+        <div class="container mainBody-container">
+            <div class="row">
+                <div class="left-column col-sm-4">
+                    <div class="img-container">
+                        <img class="me" src="icons/me.jpeg"/>
                     </div>
-                </footer>
+                </div>
+                <div class="right-column offset-sm-1 col-sm-7">
+                    <h1>My Tech Skills</h1>
+                    <div class="container list-container">
+                        <ul class="techSkills">
+                            <li>Basic Web Design (HTML, CSS, JavaScript)</li>
+                            <li>Front End Frameworks andLibraries (Flexbox, Bootstrap, JQuery)</li>
+                            <li>Github</li>
+                            <li>GitKraken</li>
+                            <li>Command Line Navigation</li>
+                            <li>Visual Studio Code (2018)</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
+            <div class="row row2">
+                <div class="col-sm">
+                    <h1>My Repos</h1>
+                    <ul id="repoList"></ul>
+                </div>
+            </div>
+        </div>
 
-            <script type="text/JavaScript" src="script.js"></script>
-        </body>
+        <div class="footer-container">
+            <footer>
+                <div class="footer-contents">
+                    <div class="footer-left">
+                        <h3 class="email">
+                            <i class="fas fa-envelope"></i>
+                            Tank4396@yahoo.com
+                        </h3>
+                    </div>
+                    <div class="footer-right">
+                        <a href="https://www.github.com/skyrimjunky96" target="_blank" class="resize" id="github"><img class="icons" id="githubIcon" src="icons/if_github_social_media_online_1005326.png"/></a>
+                        <a href="https://www.linkedin.com/in/clayton-hebbe-39409680/" target="_blank" class="resize" id="linkedin"><img class="icons" id="linkedinIcon" src="icons/if_linkedin_circle_color_107178.png"/></a>
+                        <a href="https://www.facebook.com/ClaytonMichaelEstill" target="_blank" class="resize" id="facebook"><img class="icons" id="facebookIcon" src="icons/if_facebook_circle_color_107175.png"/></a>
+                        <a href="https://www.instagram.com/tank4396/" target="_blank" class="resize" id="instagram"><img class="icons" id="instagramIcon" src="icons/if_instagram_circle_color_107172.png"/></a>
+                        <a href="https://twitter.com/squebbot" target="_blank" class="resize" id="twitter"><img class="icons" id="twitterIcon" src="icons/if_twitter_circle_color_107170.png"/></a>
+                    </div>
+                </div>
+            </footer>
+        </div>
 
-    </html>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script type="text/JavaScript" src="script.js"></script>
+    </body>
+
+</html>
