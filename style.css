@@ -18,6 +18,62 @@ header h1 {
     margin: 15px 0px;
 }
 
+.row {
+    margin: 15px;
+    padding: 15px;
+}
+
+.left-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container {
+    width: 390px;
+    height: 390px;
+    background-color: black;
+    border: 20px solid black;
+    border-radius: 30px;
+}
+
+img.me {
+    width: 350px;
+    height: auto;
+    border-radius: 20px;
+    
+}
+
+.right-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 30px;
+    background-color: black;
+    color: white;
+}
+
+.right-column h1 {
+    margin: 15px;
+}
+
+.row2 {
+    background-color: black;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 123px;
+}
+
+.col-sm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#repoList {
+    font-size: 30px;
+}
+
 footer {
     background-color: black;
     color: white;
