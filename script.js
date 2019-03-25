@@ -12,7 +12,7 @@ newRequest.onreadystatechange = function() {
     }
 };
 
-newRequest.open("GET", "https://api.github.com/users/skyrimjunky96/repos", true);
+newRequest.open("GET", "https://api.github.com/users/ClaytonHebbe96/repos", true);
 newRequest.send();
 
 // Repo AJAX request
